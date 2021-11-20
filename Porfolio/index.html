@@ -46,9 +46,9 @@
           <h1 class="text-light"><a href="index.html">Nipun Raj</a></h1>
 
           <div class="social-links mt-3 text-center">
-            <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-            <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-            <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+            <a href="https://twitter.com/NipunRaj7" target="_blank" rel="noopener noreferrer" class="twitter"><i class="bx bxl-twitter"></i></a>
+            <a href="https://github.com/nipunrajk" target="_blank" rel="noopener noreferrer"  class="facebook"><i class="bx bxl-github"></i></a>
+            <a href="https://www.instagram.com/nipunraj/" target="_blank" rel="noopener noreferrer" class="instagram"><i class="bx bxl-instagram"></i></a>
             <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
             <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
           </div>
@@ -65,7 +65,7 @@
               <a href="#about"><i class="bx bx-user"></i><span>About</span></a>
             </li>
             <li>
-              <a href="#resume"
+              <a href="https://drive.google.com/file/d/16R74Khgqx6JBC1yvNNksqjejklo0zk1S/view?usp=sharing " target="_blank" rel="noopener noreferrer" 
                 ><i class="bx bx-file"></i><span>Resume</span></a
               >
             </li>
@@ -98,7 +98,7 @@
    <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
     <div class="hero-container" data-aos="fade-in">
       <h1>Nipun Raj</h1>
-      <p>I'm <span class="typed" data-typed-items="Designer, Developer, Freelancer, Photographer"></span></p>
+      <p>I'm <span class="typed" data-typed-items="Developer, Photographer, Freelancer"></span></p>
     </div>
   </section><!-- End Hero -->
 
@@ -123,7 +123,7 @@
           </div>
           <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
             <h3>Web Developer &amp; Python developer</h3>
-            <p class="font-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus inventore, magni delectus ut esse culpa enim quaerat deserunt quibusdam totam nulla? Praesentium nostrum molestiae quasi consequuntur excepturi cumque quaerat doloribus ex commodi, quam quae delectus voluptatibus atque pariatur animi voluptas? Deserunt culpa illo harum excepturi?
+            <p class="font-italic">I am Nipun Raj. I aim to find an exciting and challenging entry-level position in the technology industry alongside a company that will motivate and drive me to do my best and improve on my skills and abilities in order to be able to assist the company in archiving its goals and mission
             </p>
             <div class="row">
               <div class="col-lg-6">
@@ -139,7 +139,6 @@
                   <li><i class="icofont-rounded-right"></i> <strong>Age:</strong> 22</li>
                   <li><i class="icofont-rounded-right"></i> <strong>Degree:</strong> B.Tech</li>
                   <li><i class="icofont-rounded-right"></i> <strong>Email:</strong>nipunraj99@gmail.com</li>
-                  <li><i class="icofont-rounded-right"></i> <strong>City:</strong>  Malappuram, Kerala</li>
                 </ul>
               </div>
             </div>
@@ -165,8 +164,8 @@
           <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
             <div class="count-box">
               <i class="icofont-simple-smile"></i>
-              <span data-toggle="counter-up">232</span>
-              <p><strong>Happy Clients</strong> consequuntur quae</p>
+              <span data-toggle="counter-up">Experience</span>
+              <p><strong>1.5 Years</strong> consequuntur quae</p>
             </div>
           </div>
 
@@ -279,6 +278,19 @@
       document
         .querySelectorAll('img')
         .forEach((img) => img.addEventListener('load', () => AOS.refresh()))
+
+      if ($('.typed').length) {
+    var typed_strings = $(".typed").data('typed-items');
+    typed_strings = typed_strings.split(',')
+    new Typed('.typed', {
+      strings: typed_strings,
+      loop: true,
+      typeSpeed: 100,
+      backSpeed: 50,
+      backDelay: 2000
+    });
+  }
+  
     </script>
   </body>
 </html>
